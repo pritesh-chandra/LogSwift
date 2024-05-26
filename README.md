@@ -1,6 +1,6 @@
 # LogSwift
 
-LoggerSwift is a simple and customizable logger for Node.js applications that logs messages to the console with timestamp, process ID, and location information (file, line number, and function name). It supports different log levels and colorized output.
+LogSwift is a simple and customizable logger for Node.js applications that logs messages to the console with timestamp, process ID, and location information (file, line number, and function name). It supports different log levels and colorized output.
 
 ## Features
 
@@ -12,18 +12,18 @@ LoggerSwift is a simple and customizable logger for Node.js applications that lo
 To install LoggerSwift, you need to have Node.js and npm installed. You can then install it via npm or yarn:
 Using NPM:
 ```
-$ npm install logger-swift
+$ npm install log-swift
 ```
 
 Using YARN:
 ```
-$ yarn add logger-swift
+$ yarn add log-swift
 ```
 
 ## Usage
-First, require the `LoggerSwift` module in your application:
+First, require the `LogSwift` module in your application:
 ```js
-const LoggerSwift = require('logger-swift');
+const LoggerSwift = require('log-swift');
 const logger = new LoggerSwift();
 ```
 
@@ -42,7 +42,7 @@ logger.fatal('This is a fatal error message.');
 Here's a simple example demonstrating the usage of LoggerSwift:
 
 ```js
-const LoggerSwift = require('logger-swift');
+const LoggerSwift = require('log-swift');
 const logger = new LoggerSwift();
 
 logger.info('Application has started.');
