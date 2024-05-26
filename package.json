@@ -1,6 +1,6 @@
 {
   "name": "log-swift",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "LogSwift is a simple and customizable logger for Node.js applications that logs messages to the console with timestamp, process ID, and location information (file, line number, and function name). It supports different log levels and colorized output.",
   "main": "lib/LogSwift.js",
   "directories": {
