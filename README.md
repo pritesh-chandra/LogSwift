@@ -9,7 +9,7 @@ LogSwift is a simple and customizable logger for Node.js applications that logs 
 - **Readability**: Logs messages with timestamp, process ID, file name, line number, and function name.
 
 ## Installation
-To install LoggerSwift, you need to have Node.js and npm installed. You can then install it via npm or yarn:
+To install LogSwift, you need to have Node.js and npm installed. You can then install it via npm or yarn:
 Using NPM:
 ```
 $ npm install log-swift
@@ -23,8 +23,8 @@ $ yarn add log-swift
 ## Usage
 First, require the `LogSwift` module in your application:
 ```js
-const LoggerSwift = require('log-swift');
-const logger = new LoggerSwift();
+const LogSwift = require('log-swift');
+const logger = new LogSwift();
 ```
 
 You can then use the logger to log messages at different levels:
@@ -39,11 +39,11 @@ logger.fatal('This is a fatal error message.');
 ```
 
 ## Example
-Here's a simple example demonstrating the usage of LoggerSwift:
+Here's a simple example demonstrating the usage of LogSwift:
 
 ```js
-const LoggerSwift = require('log-swift');
-const logger = new LoggerSwift();
+const LogSwift = require('log-swift');
+const logger = new LogSwift();
 
 logger.info('Application has started.');
 ```
@@ -56,7 +56,7 @@ Location : example/logger-example.js: 4 (someFunctionName)
 ```
 
 ## Configuration
-LoggerSwift relies on two additional modules for log levels and log colors:
+LogSwift relies on two additional modules for log levels and log colors:
 
 - **`LogLevels`**: Define the log levels.
 - **`LogColors`**: Define the colors for each log level.

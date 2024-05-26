@@ -1,14 +1,14 @@
-const LoggerSwift = require("../lib/log-swift");
+const LogSwift = require("../lib/LogSwift");
 
-const loggerSwift = new LoggerSwift();
+const log = new LogSwift();
 
 function checkLogger() {
-  loggerSwift.generic("This is a generic log");
-  loggerSwift.debug("This is a debug message");
-  loggerSwift.info("This is an info message");
-  loggerSwift.warn("This is a warning message");
-  loggerSwift.error("This is an error message");
-  loggerSwift.fatal("This is a fatal message");
+  log.generic("This is a generic log");
+  log.debug("This is a debug message");
+  log.info("This is an info message");
+  log.warn("This is a warning message");
+  log.error("This is an error message");
+  log.fatal("This is a fatal message");
 }
 
 checkLogger();
