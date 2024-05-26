@@ -1,6 +1,6 @@
 # LogSwift
 
-LogSwift is a simple and customizable logger for Node.js applications that logs messages to the console with timestamp, process ID, and location information (file, line number, and function name). It supports different log levels and colorized output.
+[LogSwift](https://pritesh-chandra.github.io/log-swift-webapp/) is a simple and customizable logger for Node.js applications that logs messages to the console with timestamp, process ID, and location information (file, line number, and function name). It supports different log levels and colorized output.
 
 ## Features
 
